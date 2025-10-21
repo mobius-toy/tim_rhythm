@@ -33,7 +33,7 @@ TIM Rhythm 是一个基于 Web 的振动波形编辑器，专为 TIM 设备设�
 TIM Rhythm 是一个 Web 应用，可以直接在浏览器中访问：
 
 ```
-https://your-domain.com/tim_rhythm
+https://mobius-toy.github.io/tim_rhythm
 ```
 
 ## 🎯 使用指南
