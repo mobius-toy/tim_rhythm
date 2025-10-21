@@ -1,0 +1,27 @@
+# Tim Rhythm GitHub Pages 部署
+
+此仓库包含 Tim Rhythm Web 应用的构建产物，用于 GitHub Pages 部署。
+
+## 自动部署
+
+构建产物通过 GitHub Actions 自动从 `tim_rhythm_web` 项目部署到此仓库。
+
+## 手动部署
+
+如果需要手动部署，请运行以下命令：
+
+```bash
+# 在 tim_rhythm_web 项目中运行
+npm run build
+npm run deploy:github-pages
+```
+
+## 文件结构
+
+- `/` - 静态网站文件
+- `README.md` - 项目说明
+- `.github-pages` - GitHub Pages 配置
+
+## 访问地址
+
+- GitHub Pages: https://mobius-toy.github.io/tim_rhythm/
